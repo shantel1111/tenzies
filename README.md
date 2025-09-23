@@ -22,12 +22,12 @@ The goal is to roll until all dice show the same value. You can "hold" dice to k
 
 ---
 
-🕹️ How to Play
-	1.	Click Roll to roll the dice.
-	2.	Click a die to hold its value.
-	3.	Keep rolling until all dice are the same number.
-	4.	Try to win in the fewest rolls possible!
-
+## 🕹️ How to Play
+1. Click **Roll** to roll the dice.  
+2. Click a die to **hold** its value.  
+3. Keep rolling until all dice show the same number.  
+4. Try to win in as few rolls as possible.
+   
 ---
 
 ## 📦 Installation
