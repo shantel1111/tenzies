@@ -1,19 +1,39 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# 🎲 Tenzies – React Game
+Tenzies is a simple dice game built with **React**.  
+The goal is to roll until all dice show the same value. You can "hold" dice to keep their values between rolls, and keep rolling the rest until you win.  
+
+---
+
+## ✨ Features
+- 🎲 Roll 10 dice at once  
+- 📌 Click dice to hold/unhold them  
+- 🏆 Game-winning condition detection  
+- 🔄 New game / reset option  
+- 🎉 Confetti animation when you win  
+
+---
+
+## 🛠️ Technologies Used
+- React (Hooks, State, Props)  
+- JavaScript (ES6+)  
+- HTML5 & CSS3  
+- [nanoid](https://www.npmjs.com/package/nanoid) for unique IDs  
+- [react-confetti](https://www.npmjs.com/package/react-confetti)  
+
+---
+
+## 🕹️ How to Play
+1. Click **Roll** to roll the dice.  
+2. Click a die to **hold** its value.  
+3. Keep rolling until all dice show the same number.  
+4. Try to win in as few rolls as possible.
+   
+---
+
+## 📦 Installation
+```bash
+git clone https://github.com/your-username/tenzies-game.git
+cd tenzies-game
 npm install
 npm start
-```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
