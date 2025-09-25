@@ -35,7 +35,7 @@ The goal is to roll until all dice show the same value. You can "hold" dice to k
 
 ## 📦 Installation
 ```bash
-git clone https://github.com/your-username/tenzies-game.git
+git clone https://github.com/shantel1111/tenzies-game.git
 cd tenzies-game
 npm install
 npm start
