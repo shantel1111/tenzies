@@ -5,13 +5,13 @@ The goal is to roll until all dice show the same value. You can "hold" dice to k
 ---
 
 ## ✨ Features
-🎲 Roll 10 dice at once
-📌 Click dice to hold/unhold them
-⏱️ Timer: Tracks seconds from first roll to win
-🔢 Roll Counter: Counts the number of rolls used
-🏆 Game-winning condition detection
-🔄 New game / reset option
-🎉 Confetti animation when you win 
+- 🎲 Roll 10 dice at once
+- 📌 Click dice to hold/unhold them
+- ⏱️ Timer: Tracks seconds from first roll to win
+- 🔢 Roll Counter: Counts the number of rolls used
+- 🏆 Game-winning condition detection
+- 🔄 New game / reset option
+- 🎉 Confetti animation when you win 
 
 ---
 
