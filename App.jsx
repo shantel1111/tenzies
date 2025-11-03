@@ -56,7 +56,7 @@ export default function App() {
   );
 
   function rollDice() {
-    if (rolls === 0) {
+    if (!gameActive) {
       setGameActive(true);
     }
 
@@ -106,11 +106,14 @@ export default function App() {
         current value between rolls.
       </p>
       <div className="progress-container">
-        <span ref={timerRef}>Timer: 0.{time}s</span>
+        <span ref={timerRef}>
+          Timer: {Math.floor(time / 60)}:
+          {(time % 60).toString().padStart(2, "0")}
+        </span>
         <span>Roll Counter: {rolls}</span>
       </div>
       <div className="dice-container">{diceElements}</div>
-      <button ref={buttonRef} className="roll-dice" onClick={rollDice}>
+      <button className="roll-dice" onClick={rollDice}>
         {gameWon ? "New Game" : "Roll"}
       </button>
     </main>
